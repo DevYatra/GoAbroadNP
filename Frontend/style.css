@@ -162,3 +162,56 @@
     text-align: center;
   }
   
+  
+.how-it-works h2 {
+    font-size: 2.5rem;
+    margin-bottom: 60px;
+  }
+  
+  .steps {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    max-width: 1300px;
+    margin: auto;
+    align-items: stretch;
+  }
+  
+  .step {
+    flex: 1 1 320px;
+    max-width: 380px;
+    padding: 30px 20px;
+    text-align: left;
+  }
+  
+  .divider {
+    width: 1px;
+    background-color: rgba(255, 255, 255, 0.2);
+    height: auto;
+    margin-left: 2%;
+  }
+  
+  .step:last-child {
+    border-right: none;
+  }
+  
+  .step h3 {
+    font-size: 1.2rem;
+    text-decoration: underline;
+    margin-bottom: 20px;
+  }
+  
+  .step .quote {
+    font-style: italic;
+    margin-bottom: 20px;
+    text-align: justify;
+  }
+  
+  .step p {
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-bottom: 15px;
+    text-align: justify;
+  }
+  

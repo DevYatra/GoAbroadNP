@@ -364,5 +364,23 @@
     <img class="modal-content" id="modalImage" alt="Modal Image" />
   </div>
 
+  <script>
+    function openModal(imageSrc) {
+      document.getElementById("imageModal").style.display = "block";
+      document.getElementById("modalImage").src = imageSrc;
+    }
+
+    function closeModal() {
+      document.getElementById("imageModal").style.display = "none";
+    }
+
+    window.onclick = function (event) {
+      const modal = document.getElementById("imageModal");
+      if (event.target === modal) {
+        modal.style.display = "none";
+      }
+    };
+  </script>
+
 </body>
 </html>

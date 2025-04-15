@@ -1,236 +1,235 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: "Poppins", sans-serif;
-  }
-  
-  .top-bar {
-    background-color: #262f9c;
-    color: white;
-    text-align: center;
-    padding: 8px 20px;
-    font-size: 14px;
-    font-style: italic;
-  }
-  
-  .navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding: 15px 5%;
-    background-color: white;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-  }
-  .logo {
-    flex-shrink: 0;
-  }
-  
-  .logo img {
-    height: auto;
-    width: 100px;
-  }
-  
-  .nav-links {
-    display: flex;
-    gap: 50px;
-    flex-wrap: wrap;
-    margin-top: 10px;
-  }
-  
-  .nav-links a {
-    position: relative;
-    text-decoration: none;
-    color: black;
-    font-weight: 500;
-    font-size: 18px;
-    padding-bottom: 5px;
-    transition: color 0.3s ease;
-  }
-  
-  .nav-links a.active::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 3px;
-    width: 100%;
-    background-color: #252d8f;
-    border-radius: 4px;
-    transition: width 0.3s ease;
-  }
-  
-  .nav-links a:hover {
-    color: #262f9c;
-  }
-  .container {
-    display: flex;
-    padding: 20px;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  
-  .sidebar {
-    width: 250px;
-    background: #fff;
-    border: 1px solid #ccc;
-    padding: 15px;
-    margin-right: 20px;
-  }
-  
-  .sidebar h2 {
-    font-size: 18px;
-    margin-bottom: 10px;
-  }
-  
-  .filter-toggle {
-    display: none;
-    margin-bottom: 10px;
-  }
-  
-  .filters .filter-group {
-    margin-bottom: 20px;
-  }
-  
-  .filter-group h3 {
-    font-size: 14px;
-    margin-bottom: 5px;
-  }
-  
-  .filter-group ul {
-    list-style: none;
-    font-size: 13px;
-  }
-  
-  .filter-group li {
-    margin-bottom: 5px;
-  }
-  
-  .main-content {
-    flex: 1;
-  }
-  
-  .card {
-    background: #fff;
-    display: flex;
-    border: 1px solid #ccc;
-    margin-bottom: 15px;
-    padding: 15px;
-    border-radius: 5px;
-    align-items: center;
-  }
-  
-  .logo {
-    width: 60px;
-    margin-right: 15px;
-  }
-  
-  .info h3 {
-    font-size: 16px;
-    margin-bottom: 5px;
-  }
-  
-  .info p {
-    font-size: 13px;
-    margin-bottom: 8px;
-  }
+body {
+  font-family: "Poppins", sans-serif;
+}
 
-  .services span {
-    background: #000;
-    font-size: 12px;
-    padding: 3px 6px;
-    border-radius: 3px;
-    margin-right: 5px;
-    color: white;
-    border-radius: 47px;
-    border: 1px solid #000;
-  }
-  .tags span{
-    width: 63px;
-    height: 15px;
-    flex-shrink: 0;
-    color: black;
-    padding: 3px 6px;
-    border-radius: 3px;
-    margin-right: 5px;
-    border-radius: 47px;
-    border: 1px solid #000;
-    background: #FFF;
-  }
-  .more{
-    border-radius: 47px;
-    border: 1px solid #F00 !important;
-    background: #C85757 !important;
-  }
-  .more {
-    background: #ffcccc;
-  }
-  
-  .actions {
-    margin-top: 10px;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-  }
-  
-  .actions img {
-    width: 20px;
-    height: 20px;
-  }
-  
-  .close-btn {
-    background: none;
-    border: none;
-    font-size: 16px;
-    cursor: pointer;
-  }
-  
-  .pagination {
-    margin-top: 20px;
-    text-align: center;
-  }
-  
-  .pagination button {
-    background: #ddd;
-    border: none;
-    padding: 6px 10px;
-    margin: 0 3px;
-    cursor: pointer;
-  }
-  
-  .pagination .active {
-    background: #999;
-    color: #fff;
-  }
-  .socials i {
-    margin-left: 10px;
-    cursor: pointer;
-  }
-  
-  .socials {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-  }
-  
-  .socials a {
-    font-size: 1.1rem;
-    color: #333;
-    transition: color 0.3s ease;
-  }
-  
-  .socials a.facebook:hover {
-    color: #1877F2; /* Facebook Blue */
-  }
-  
-  .socials a.instagram:hover {
-    color: #E1306C; /* Instagram Pink */
-  }
-  
-  .socials a.x:hover {
-    color: #000000; /* X (formerly Twitter) Black */
-  }
-  
+.top-bar {
+  background-color: #262f9c;
+  color: white;
+  text-align: center;
+  padding: 8px 20px;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 15px 5%;
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+.logo {
+  flex-shrink: 0;
+}
+
+.logo img {
+  height: auto;
+  width: 100px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.nav-links a {
+  position: relative;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  font-size: 18px;
+  padding-bottom: 5px;
+  transition: color 0.3s ease;
+}
+
+.nav-links a.active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 100%;
+  background-color: #252d8f;
+  border-radius: 4px;
+  transition: width 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #262f9c;
+}
+.container {
+  display: flex;
+  padding: 20px;
+}
+
+
+.sidebar {
+  width: 250px;
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-right: 20px;
+}
+
+.sidebar h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.filter-toggle {
+  display: none;
+  margin-bottom: 10px;
+}
+
+.filters .filter-group {
+  margin-bottom: 20px;
+}
+
+.filter-group h3 {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.filter-group ul {
+  list-style: none;
+  font-size: 13px;
+}
+
+.filter-group li {
+  margin-bottom: 5px;
+}
+
+.main-content {
+  flex: 1;
+}
+
+.card {
+  background: #fff;
+  display: flex;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+  padding: 15px;
+  border-radius: 5px;
+  align-items: center;
+}
+
+.logo {
+  width: 60px;
+  margin-right: 15px;
+}
+
+.info h3 {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.info p {
+  font-size: 13px;
+  margin-bottom: 8px;
+}
+
+.services span {
+  background: #000;
+  font-size: 12px;
+  padding: 3px 6px;
+  border-radius: 3px;
+  margin-right: 5px;
+  color: white;
+  border-radius: 47px;
+  border: 1px solid #000;
+}
+.tags span{
+  width: 63px;
+  height: 15px;
+  flex-shrink: 0;
+  color: black;
+  padding: 3px 6px;
+  border-radius: 3px;
+  margin-right: 5px;
+  border-radius: 47px;
+  border: 1px solid #000;
+  background: #FFF;
+}
+.more{
+  border-radius: 47px;
+  border: 1px solid #F00 !important;
+  background: #C85757 !important;
+}
+.more {
+  background: #ffcccc;
+}
+
+.actions {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.actions img {
+  width: 20px;
+  height: 20px;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.pagination {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.pagination button {
+  background: #ddd;
+  border: none;
+  padding: 6px 10px;
+  margin: 0 3px;
+  cursor: pointer;
+}
+
+.pagination .active {
+  background: #999;
+  color: #fff;
+}
+.socials i {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.socials a {
+  font-size: 1.1rem;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.socials a.facebook:hover {
+  color: #1877F2; /* Facebook Blue */
+}
+
+.socials a.instagram:hover {
+  color: #E1306C; /* Instagram Pink */
+}
+
+.socials a.x:hover {
+  color: #000000; /* X (formerly Twitter) Black */
+}
